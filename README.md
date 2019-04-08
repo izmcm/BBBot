@@ -58,7 +58,7 @@ while(1):
 Os delays, representados por `time.sleep()`, funcionam com o mesmo propósito.
 
 ### 2. Processamento do captcha
-A parte de processamento de imagem pode ser vista em [processing.py](https://github.com/izmcm/BBBot/blob/master/processing.py). Nele, há duas funções: **processImage()** e **findInCaptcha()**
+A parte de processamento de imagem pode ser vista em [processing.py](https://github.com/izmcm/BBBot/blob/master/processing.py). Nele, há duas funções: processImage() e findInCaptcha()
 
 #### processImage()
 Nessa função, é realizado o processamento do captcha por meio do método [Dilate](https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html) de [OpenCV](https://opencv.org/). 
