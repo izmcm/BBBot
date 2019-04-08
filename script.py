@@ -12,38 +12,36 @@ firefox.get(url)
 
 singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
 
-time.sleep(15) # fazer credenciamento
-
-# bbbotvot@gmail.com
-# botvot123
+time.sleep(15) # tempo fazer login
 
 print("iniciando o bot")
-for _ in range(10):
-	while(1):
-		try:
-			title = firefox.find_elements_by_class_name('glb-poll-question')[0].text
-			break
-		except:
-			pass
+while(1):
+	try:
+		title = firefox.find_elements_by_class_name('glb-poll-question')[0].text
+		break
+	except:
+		pass
 
-	print(title)
+print(title)
 
-	titleParts = title.split('?')[1]
+titleParts = title.split('?')[1]
 
-	print(titleParts)
+print(titleParts)
 
-	# paredão triplo
-	# namesAux = titleParts.split(', ')
-	# names = [namesAux[0].strip()]
-	# names = names + namesAux[1].split(' ou ')
-	
-	# paredão duplo
-	namesAux = titleParts.split(' ou ')
-	names = [namesAux[0].strip(), namesAux[1]]
+##### paredão triplo #####
+# namesAux = titleParts.split(', ')
+# names = [namesAux[0].strip()]
+# names = names + namesAux[1].split(' ou ')
 
-	idxName = names.index(nameSearch)
+##### paredão duplo #####
+namesAux = titleParts.split(' ou ')
+names = [namesAux[0].strip(), namesAux[1]]
 
-	print(nameSearch + " é o " + str(idxName) + " botao")
+
+idxName = names.index(nameSearch)
+
+for _ in range(30):
+	print(nameSearch + " é o botao" + str(idxName))
 
 	element = []
 	while(1):
@@ -70,8 +68,6 @@ for _ in range(10):
 		except:
 			pass
 
-	print(captchaBox)
-	print(captchaBox[0].text)
 	imageSearchNameList = (captchaBox[0].text).split(' ')
 	print(imageSearchNameList)
 
@@ -99,10 +95,10 @@ for _ in range(10):
 	fd.close()
 
 	processing.processImage(filename)
-	
 	points = processing.findInCaptcha(filename)
+
 	if points != []:
-		print("return: " + str(points[0]) + " " + str(points[1]))
+		print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
 		print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
 
 		posX = points[0] - captcha.size['width']/2
@@ -111,7 +107,7 @@ for _ in range(10):
 		ac.move_to_element(captcha).move_by_offset(posX, posY).click().perform()
 		time.sleep(3)
 	else:
-		print("erro")
+		print("erro - captcha não encontrado")
 	
 	firefox.refresh()
 	time.sleep(3)
