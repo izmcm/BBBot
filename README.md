@@ -4,13 +4,13 @@ BBBot é um bot que realiza votações no [Big Brother Brasil 19](https://gshow.
 
 O projeto foi testado no MacOS 10.14.3
 
-## Começando
+## Antes de tudo
 
 ### Pré-requisitos
 
 * [Python3](https://www.python.org/)   
 * [Selenium](https://www.seleniumhq.org/) para simular a navegação
-* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) o navegador que será usado 
+* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado 
 * [OpenCV](https://opencv.org/) para o processamento de imagem do captcha
 
 ### Utilizando o bot
