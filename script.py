@@ -12,7 +12,7 @@ firefox.get(url)
 
 singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
 
-time.sleep(15) # tempo fazer login
+time.sleep(30) # tempo fazer login
 
 print("iniciando o bot")
 while(1):
