@@ -29,6 +29,7 @@ python3 script.py
 Nesse momento, o Firefox abrirá automaticamente na página de votação e será necessário fazer o login no site. Após o login ser realizado, o programa se encarregará de votar na pessoa escolhida em **nomeSearch** e passar pelo captcha sozinho.
 
 #### Demo
+![demo](demo.gif)
 
 ## Como funciona?
 
