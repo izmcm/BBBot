@@ -26,66 +26,65 @@ Após isso, podemos caminhar até a pasta para rodar o projeto:
 python3 script.py
 ```
 
-Nesse momento, o Firefox abrirá automaticamente na página de votação e será necessário fazer o login no site. Após o login ser realizado, o programa se encarregará de votar na pessoa escolhida e passar pelo captcha.
+Nesse momento, o Firefox abrirá automaticamente na página de votação e será necessário fazer o login no site. Após o login ser realizado, o programa se encarregará de votar na pessoa escolhida em **nomeSearch** e passar pelo captcha sozinho.
 
+#### Demo
 
+## Como funciona?
 
-```
-until finished
-```
+O funcionamento do programa pode ser dividido em duas partes: simulação de uso do navegador com [Selenium](https://www.seleniumhq.org/) e processamento do captcha com [OpenCV](https://opencv.org/).
 
-End with an example of getting some data out of the system or using it for a little demo
+### 1. Simulação de uso do navegador
+Selenium é uma das muitas ferramentas usadas para realizar testes em aplicativos web e, com isso, pode realizar simulações de uso de um navegador como o Firefox. Para realizar essas simulações, ele basicamente interage com o html da página web.
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Em vários momentos do [script.py](https://github.com/izmcm/BBBot/blob/master/script.py), é possivel ver o Selenium capturando elementos da página a partir de suas classes ou IDs, como em:
 
 ```
-Give an example
+13  | singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
+... | 
+81  | captcha = firefox.find_element_by_id("glb-challenge-image")
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+É importante observar que os elementos são buscados na forma abaixo para evitar que oscilações na velocidade de carregamento da página quebrem o script. Assim, o programa continua procurando pelo elemento até ele que ele consiga carregar completamente.
 ```
-Give an example
+while(1):
+  try:
+    title = firefox.find_elements_by_class_name('glb-poll-question')[0].text
+    break
+  except:
+    pass
 ```
 
-## Deployment
+Os delays, representados por `time.sleep()`, funcionam com o mesmo propósito.
 
-Add additional notes about how to deploy this on a live system
+### 2. Processamento do captcha
+A parte de processamento de imagem pode ser vista em [processing.py](https://github.com/izmcm/BBBot/blob/master/processing.py). Nele, há duas funções: **processImage()** e **findInCaptcha()**
 
-## Built With
+#### processImage()
+Nessa função, é realizado o processamento do captcha por meio do método [Dilate](https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html) de [OpenCV](https://opencv.org/). 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+A função desse código é deixar as linhas da imagem mais leves para poder capturar a imagem com mais precisão e o trabalho desse código pode ser visto abaixo:
 
-## Contributing
+Antes                        |  Depois
+:---------------------------:|:---------------------------:
+![Antes](captchas/avião.png) |  ![Depois](processedCaptchas/avião.png)
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Depois de realizar o processamento, cada imagem foi cortada a mão para conseguir o da resposta correta e salvá-lo em [elementsCaptcha](https://github.com/izmcm/BBBot/tree/master/elementsCaptcha) que funcionou como o dataset.
 
-## Versioning
+#### findInCaptcha()
+Aqui, a imagem salva em elementsCaptcha é usada como referência para buscar o elemento pedido no novo captcha. Tudo isso é feito com o método [matchTemplate](https://docs.opencv.org/2.4.13.7/doc/tutorials/imgproc/histograms/template_matching/template_matching.html). É importante observar que isso só é possível porque as imagens de cada elemento são sempre as mesmas.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+O resultado dessa etapa pode ser visto em [matchCaptcha](https://github.com/izmcm/BBBot/tree/master/matchCaptcha).
 
-## Authors
+Captcha                                 |  Elemento                               |  Match
+:--------------------------------------:|:---------------------------------------:|:-------------------:
+![captcha](processedCaptchas/avião.png) |  ![elemento](elementsCaptcha/avião.png) | ![match](matchCaptcha/avião.png)
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+Por fim, a função retorna a localização do elemento no captcha para o [script.py](https://github.com/izmcm/BBBot/blob/master/script.py). Lá, o Selenium se encarrega de fazer o clique na posição certa da imagem.
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+###### Mais sobre processamento de imagem em captchas pode ser visto em [Captcha Break](https://github.com/izmcm/captcha-break)
 
-## License
+## Licença
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+A licença do projeto é MIT License - olhar [LICENSE.md](LICENSE.md) para mais detalhes.
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
