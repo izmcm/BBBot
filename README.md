@@ -38,7 +38,7 @@ O funcionamento do programa pode ser dividido em duas partes: simulação de uso
 ### 1. Simulação de uso do navegador
 Selenium é uma das muitas ferramentas usadas para realizar testes em aplicativos web e, com isso, pode realizar simulações de uso de um navegador como o Firefox. Para realizar essas simulações, ele basicamente interage com o html da página web.
 
-Em vários momentos do [script.py](https://github.com/izmcm/BBBot/blob/master/script.py), é possivel ver o Selenium capturando elementos da página a partir de suas classes ou IDs, como em:
+Em vários momentos do [script.py](script.py), é possivel ver o Selenium capturando elementos da página a partir de suas classes ou IDs, como em:
 
 ```
 13  | singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
@@ -59,29 +59,31 @@ while(1):
 Os delays, representados por `time.sleep()`, funcionam com o mesmo propósito.
 
 ### 2. Processamento do captcha
-A parte de processamento de imagem pode ser vista em [processing.py](https://github.com/izmcm/BBBot/blob/master/processing.py). Nele, há duas funções: processImage() e findInCaptcha()
+A parte de processamento de imagem pode ser vista em [processing.py](processing.py). Nele, há duas funções: processImage() e findInCaptcha()
 
 #### processImage()
 Nessa função, é realizado o processamento do captcha por meio do método [Dilate](https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html) de [OpenCV](https://opencv.org/). 
 
-A função desse código é deixar as linhas da imagem mais leves para poder capturar a imagem com mais precisão e o trabalho desse código pode ser visto abaixo:
+A função desse código é deixar as linhas da imagem mais leves para poder capturá-la com mais precisão como pode ser visto abaixo:
 
 Antes                        |  Depois
 :---------------------------:|:---------------------------:
 ![Antes](captchas/avião.png) |  ![Depois](processedCaptchas/avião.png)
 
-Depois de realizar o processamento, cada imagem foi cortada a mão para conseguir o da resposta correta e salvá-lo em [elementsCaptcha](https://github.com/izmcm/BBBot/tree/master/elementsCaptcha) que funcionou como o dataset.
+Depois de realizar o processamento, cada imagem foi cortada a mão para conseguir o elemento da resposta correta e salvá-lo em [elementsCaptcha](elementsCaptcha) que funcionou como o dataset.
 
 #### findInCaptcha()
-Aqui, a imagem salva em elementsCaptcha é usada como referência para buscar o elemento pedido no novo captcha. Tudo isso é feito com o método [matchTemplate](https://docs.opencv.org/2.4.13.7/doc/tutorials/imgproc/histograms/template_matching/template_matching.html). É importante observar que isso só é possível porque as imagens de cada elemento são sempre as mesmas.
+Aqui, a imagem salva em elementsCaptcha é usada como referência para buscar o elemento pedido em qualquer outro captcha. Tudo isso é feito com o método [matchTemplate](https://docs.opencv.org/2.4.13.7/doc/tutorials/imgproc/histograms/template_matching/template_matching.html). 
 
-O resultado dessa etapa pode ser visto em [matchCaptcha](https://github.com/izmcm/BBBot/tree/master/matchCaptcha).
+##### É importante observar que isso só é possível porque as imagens de cada elemento são sempre as mesmas.
+
+Os resultados dessa etapa podem ser vistos abaixo ou em [matchCaptcha](matchCaptcha).
 
 Captcha                                 |  Elemento                               |  Match
-:--------------------------------------:|:---------------------------------------:|:-------------------:
+:--------------------------------------:|:---------------------------------------:|:--------------------------------:
 ![captcha](processedCaptchas/avião.png) |  ![elemento](elementsCaptcha/avião.png) | ![match](matchCaptcha/avião.png)
 
-Por fim, a função retorna a localização do elemento no captcha para o [script.py](https://github.com/izmcm/BBBot/blob/master/script.py). Lá, o Selenium se encarrega de fazer o clique na posição certa da imagem.
+Por fim, a função retorna a localização do elemento no captcha para o [script.py](script.py). Lá, o Selenium se encarrega de fazer o clique na posição certa da imagem.
 
 ###### Mais sobre processamento de imagem em captchas pode ser visto em [Captcha Break](https://github.com/izmcm/captcha-break)
 
