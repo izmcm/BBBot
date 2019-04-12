@@ -9,9 +9,19 @@ O projeto foi testado no MacOS 10.14.3
 ### Pré-requisitos
 
 * [Python3](https://www.python.org/)   
-* [Selenium](https://www.seleniumhq.org/) para simular a navegação
-* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado 
+```
+sudo apt-get install python3
+```
+* [Selenium](https://www.seleniumhq.org/) para simular a navegação 
+```
+sudo pip3 install selenium
+```
 * [OpenCV](https://opencv.org/) para o processamento de imagem do captcha
+```
+sudo pip3 install opencv-python
+```
+* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado 
+
 
 ### Utilizando o bot
 Depois de instalar os pré-requisitos necessários, podemos clonar o repositório na pasta de preferência:
