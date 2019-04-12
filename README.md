@@ -20,8 +20,14 @@ sudo pip3 install selenium
 ```
 sudo pip3 install opencv-python
 ```
-* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado + [geckodriver](https://github.com/mozilla/geckodriver/releases)
-
+* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado
+* [Geckodriver](https://github.com/mozilla/geckodriver/releases)
+```
+wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+tar -xvzf geckodriver*
+chmod +x geckodriver
+sudo mv geckodriver /usr/local/bin/
+```
 
 ### Utilizando o bot
 Depois de instalar os pré-requisitos necessários, podemos clonar o repositório na pasta de preferência:
