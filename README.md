@@ -20,7 +20,7 @@ sudo pip3 install selenium
 ```
 sudo pip3 install opencv-python
 ```
-* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado 
+* [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado + [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 
 ### Utilizando o bot
