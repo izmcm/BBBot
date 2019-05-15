@@ -2,7 +2,7 @@
 
 BBBot é um bot que realiza votações no [Big Brother Brasil 19](https://gshow.globo.com/realities/bbb/). Esse projeto faz parte de um estudo pessoal sobre segurança da informação e processamento de imagem.
 
-O projeto foi testado no MacOS 10.14.3
+O projeto foi testado no MacOS 10.14.3 e no Ubuntu 18.04
 
 ## Começando os trabalhos
 
