@@ -4,7 +4,7 @@ import time
 from binascii import a2b_base64
 import processing
 
-loginUrl = "https://minhaconta.globo.com/"
+loginUrl = "https://login.globo.com/login/1"
 login = "bbbotvot@gmail.com"
 password = "botvot123"
 
@@ -18,7 +18,10 @@ firefox.find_element_by_id('login').send_keys(login)
 firefox.find_element_by_id('password').send_keys(password)
 firefox.find_elements_by_css_selector('#login-form .button')[0].click()
 
-time.sleep(3)
+while True:
+	if firefox.current_url !=  loginUrl:
+		break
+
 firefox.get(url)
 
 print("iniciando o bot")
