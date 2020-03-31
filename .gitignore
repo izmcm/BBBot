@@ -105,3 +105,15 @@ venv.bak/
 
 # macos
 *.DS_Store
+
+captchas/*
+captchas19/*
+captchas20/*
+matchCaptcha/*
+matchCaptcha19/*
+matchCaptcha20/*
+processedCaptchas/*
+processedCaptchas19/*
+processedCaptchas20/*
+
+./geckodriver.log
