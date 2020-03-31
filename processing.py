@@ -1,6 +1,32 @@
 import cv2
 import numpy as np
 
+def remove_lines(image):
+    gray = cv2.bitwise_not(image)
+    # Remove horizontal
+    v_image = gray.copy()
+    vertical_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1,2))
+    v_image_eroded = cv2.erode(v_image, vertical_kernel)
+    v_image_dilated = cv2.dilate(v_image_eroded, vertical_kernel)
+    return v_image_dilated
+
+def checkBlackCol(gray, col):
+    for p in range(gray.shape[0]):
+        if gray[p][col] > 50:
+            return False
+    return True
+
+def checkBlackRow(gray, row):
+    for p in range(gray.shape[1]):
+        if gray[row][p] > 50:
+            return False
+    return True
+
+def extract_basic_image(path):
+    image = cv2.imread(path, 0)
+    elements = remove_lines(image)
+    return elements
+
 def processImage(filename):
 	img = cv2.imread('BBB20/captchas/' + filename, 0)
 
@@ -20,7 +46,6 @@ def findInCaptcha(filename):
 	captchaFile = 'BBB20/processedCaptchas/' + filename
 
 	template = cv2.imread(elementFile,0)
-	
 	img = cv2.imread(captchaFile,0)
 	# print(template)
 	
@@ -29,6 +54,11 @@ def findInCaptcha(filename):
 
 		return []
 	else:
+		# TODO: find out if we should just load the image from the dataset or not
+		# remove the lines to make the detection easier
+		template = extract_basic_image(elementFile)
+		img = extract_basic_image(captchaFile)
+		
 		w, h = template.shape[::-1]
 
 		res = cv2.matchTemplate(img,template,cv2.TM_SQDIFF_NORMED)
