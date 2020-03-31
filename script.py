@@ -20,10 +20,6 @@ firefox.find_elements_by_css_selector('#login-form .button')[0].click()
 
 firefox.get(url)
 
-#singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
-
-#time.sleep(30) # tempo fazer login
-
 print("iniciando o bot")
 while(1):
 	try:
@@ -78,9 +74,6 @@ for _ in range(30):
 		except:
 			pass
 
-	# imageSearchNameList = (captchaBox[0].text).split(' ')
-	# print(imageSearchNameList)
-
 	imageSearchName = captchaBox[0].text.split('\n')[-1]
 	print("procurando por " + imageSearchName)
 
@@ -100,7 +93,7 @@ for _ in range(30):
 
 	filename = imageSearchName + '.png'
 
-	fd = open('captchas20/' + filename, 'wb')
+	fd = open('BBB20/captchas/' + filename, 'wb')
 	fd.write(binary_data)
 	fd.close()
 

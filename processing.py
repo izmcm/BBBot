@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def processImage(filename):
-	img = cv2.imread('captchas20/' + filename, 0)
+	img = cv2.imread('BBB20/captchas/' + filename, 0)
 
 	imgBorder = cv2.copyMakeBorder(img, 8, 8, 8, 8, cv2.BORDER_REPLICATE)
 
@@ -12,12 +12,12 @@ def processImage(filename):
 	# imgDilate = cv2.dilate(imgThreshold, kernel, iterations = 1)
 	
 	# cv2.imwrite('processedCaptchas/' + filename, imgDilate)
-	cv2.imwrite('processedCaptchas20/' + filename, imgBorder)
+	cv2.imwrite('BBB20/processedCaptchas/' + filename, imgBorder)
 
 
 def findInCaptcha(filename):
-	elementFile = 'elementsCaptcha20/' + filename
-	captchaFile = 'processedCaptchas20/' + filename
+	elementFile = 'BBB20/elementsCaptcha/' + filename
+	captchaFile = 'BBB20/processedCaptchas/' + filename
 
 	template = cv2.imread(elementFile,0)
 	
@@ -25,7 +25,7 @@ def findInCaptcha(filename):
 	# print(template)
 	
 	if template is None:
-		cv2.imwrite('elementsCaptcha20/' + filename, img)
+		cv2.imwrite('BBB20/elementsCaptcha/' + filename, img)
 
 		return []
 	else:
@@ -40,7 +40,7 @@ def findInCaptcha(filename):
 		cv2.rectangle(img,top_left, bottom_right, 0, 2)
 
 		print("salvando")
-		cv2.imwrite('matchCaptcha20/' + filename, img)
+		cv2.imwrite('BBB20/matchCaptcha/' + filename, img)
 
 		return [top_left[0] + w/2, top_left[1] + h/2]
 
