@@ -5,8 +5,8 @@ from binascii import a2b_base64
 import processing
 
 loginUrl = "https://minhaconta.globo.com/"
-login = "email@provedor.com.br"
-password = "senhadoemail"
+login = "bbbotvot@gmail.com"
+password = "botvot123"
 
 url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
 nameSearch = "Felipe"
@@ -18,6 +18,7 @@ firefox.find_element_by_id('login').send_keys(login)
 firefox.find_element_by_id('password').send_keys(password)
 firefox.find_elements_by_css_selector('#login-form .button')[0].click()
 
+time.sleep(3)
 firefox.get(url)
 
 print("iniciando o bot")
