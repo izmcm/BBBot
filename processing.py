@@ -40,8 +40,8 @@ def processImage(filename):
 	# cv2.imwrite('processedCaptchas/' + filename, imgDilate)
 	cv2.imwrite('BBB20/processedCaptchas/' + filename, imgBorder)
 
-
 def findInCaptcha(filename):
+	processImage(filename)
 	elementFile = 'BBB20/elementsCaptcha/' + filename
 	captchaFile = 'BBB20/processedCaptchas/' + filename
 
@@ -70,7 +70,8 @@ def findInCaptcha(filename):
 		cv2.rectangle(img,top_left, bottom_right, 0, 2)
 
 		print("salvando")
-		cv2.imwrite('BBB20/matchCaptcha/' + filename, img)
+		found = img[top_left[1]:top_left[1]+h, top_left[0]:top_left[0]+w]
+		cv2.imwrite('BBB20/matchCaptcha/' + filename, found)
 
 		return [top_left[0] + w/2, top_left[1] + h/2]
 
