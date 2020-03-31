@@ -91,6 +91,9 @@ for _ in range(30):
 	print(idxName)
 	print(element)
 	elementBtn = element[idxName]
+
+	# scroll down
+	browser.execute_script("window.scrollTo(0, 600)") 
   
 	ac2 = ActionChains(browser)
 	ac2.move_to_element(elementBtn).click().perform()
