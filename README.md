@@ -84,7 +84,7 @@ A função desse código é deixar as linhas da imagem mais leves para poder cap
 
 Antes                        |  Depois
 :---------------------------:|:---------------------------:
-![Antes](captchas/avião.png) |  ![Depois](processedCaptchas/avião.png)
+![Antes](BBB19/captchas/avião.png) |  ![Depois](BBB19/processedCaptchas/avião.png)
 
 Depois de realizar o processamento, cada imagem foi cortada a mão para conseguir o elemento da resposta correta e salvá-lo em [elementsCaptcha](elementsCaptcha) que funcionou como o dataset.
 
@@ -97,7 +97,7 @@ Os resultados dessa etapa podem ser vistos abaixo ou em [matchCaptcha](matchCapt
 
 Captcha                                 |  Elemento                               |  Match
 :--------------------------------------:|:---------------------------------------:|:--------------------------------:
-![captcha](processedCaptchas/avião.png) |  ![elemento](elementsCaptcha/avião.png) | ![match](matchCaptcha/avião.png)
+![captcha](BBB19/processedCaptchas/avião.png) |  ![elemento](BBB19/elementsCaptcha/avião.png) | ![match](BBB19/matchCaptcha/avião.png)
 
 Por fim, a função retorna a localização do elemento no captcha para o [script.py](script.py). Lá, o Selenium se encarrega de fazer o clique na posição certa da imagem.
 
