@@ -2,20 +2,22 @@ import cv2
 import numpy as np
 
 def processImage(filename):
-	img = cv2.imread('captchas/' + filename, 0)
+	img = cv2.imread('captchas20/' + filename, 0)
 
 	imgBorder = cv2.copyMakeBorder(img, 8, 8, 8, 8, cv2.BORDER_REPLICATE)
 
-	ret, imgThreshold = cv2.threshold(imgBorder, 127, 255, cv2.THRESH_BINARY)
+	# ret, imgThreshold = cv2.threshold(imgBorder, 127, 255, cv2.THRESH_BINARY)
 	
-	kernel = np.ones((1,2), np.uint8)
-	imgDilate = cv2.dilate(imgThreshold, kernel, iterations = 1)
+	# kernel = np.ones((1,2), np.uint8)
+	# imgDilate = cv2.dilate(imgThreshold, kernel, iterations = 1)
 	
-	cv2.imwrite('processedCaptchas/' + filename, imgDilate)
+	# cv2.imwrite('processedCaptchas/' + filename, imgDilate)
+	cv2.imwrite('processedCaptchas20/' + filename, imgBorder)
+
 
 def findInCaptcha(filename):
-	elementFile = 'elementsCaptcha/' + filename
-	captchaFile = 'processedCaptchas/' + filename
+	elementFile = 'elementsCaptcha20/' + filename
+	captchaFile = 'processedCaptchas20/' + filename
 
 	template = cv2.imread(elementFile,0)
 	
@@ -23,7 +25,7 @@ def findInCaptcha(filename):
 	# print(template)
 	
 	if template is None:
-		cv2.imwrite('elementsCaptcha/' + filename, img)
+		cv2.imwrite('elementsCaptcha20/' + filename, img)
 
 		return []
 	else:
@@ -38,7 +40,7 @@ def findInCaptcha(filename):
 		cv2.rectangle(img,top_left, bottom_right, 0, 2)
 
 		print("salvando")
-		cv2.imwrite('matchCaptcha/' + filename, img)
+		cv2.imwrite('matchCaptcha20/' + filename, img)
 
 		return [top_left[0] + w/2, top_left[1] + h/2]
 
