@@ -71,7 +71,7 @@ for _ in range(30):
 	while(1):
 		try:
 			# print("procurando o captcha")
-			captchaBox = firefox.find_elements_by_class_name('gc__2e8f-')
+			captchaBox = firefox.find_elements_by_class_name('gc__2Qtwp')
 			if captchaBox != []:
 				if len(captchaBox[0].text) > 5:
 					break
@@ -81,7 +81,7 @@ for _ in range(30):
 	# imageSearchNameList = (captchaBox[0].text).split(' ')
 	# print(imageSearchNameList)
 
-	imageSearchName = captchaBox[0].text
+	imageSearchName = captchaBox[0].text.split('\n')[-1]
 	print("procurando por " + imageSearchName)
 
 	captcha = []
