@@ -63,7 +63,7 @@ for _ in range(30):
 			# print("procurando o captcha")
 			captchaBox = firefox.find_elements_by_class_name('gc__2e8f-')
 			if captchaBox != []:
-				if len(captchaBox[0].text) > 5:
+				if len(captchaBox[0].text) > 2:
 					break
 		except:
 			pass
@@ -90,7 +90,7 @@ for _ in range(30):
 
 	filename = imageSearchName + '.png'
 
-	fd = open('captchas20/' + filename, 'wb')
+	fd = open('BBB20/captchas/' + filename, 'wb')
 	fd.write(binary_data)
 	fd.close()
 
