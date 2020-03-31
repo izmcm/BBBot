@@ -69,7 +69,7 @@ for _ in range(30):
 			# print("procurando o captcha")
 			captchaBox = firefox.find_elements_by_class_name('gc__2Qtwp')
 			if captchaBox != []:
-				if len(captchaBox[0].text) > 5:
+				if len(captchaBox[0].text) > 2:
 					break
 		except:
 			pass
