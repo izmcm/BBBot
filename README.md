@@ -21,9 +21,9 @@ sudo pip3 install selenium
 sudo pip3 install opencv-python
 ```
 * [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) é o navegador que será usado
-* [Geckodriver](https://github.com/mozilla/geckodriver/releases)
+* [Geckodriver](https://github.com/mozilla/geckodriver/releases) - verificar releases mais recentes
 ```
-wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-macos.tar.gz
 tar -xvzf geckodriver*
 chmod +x geckodriver
 sudo mv geckodriver /usr/local/bin/
@@ -84,7 +84,7 @@ A função desse código é deixar as linhas da imagem mais leves para poder cap
 
 Antes                        |  Depois
 :---------------------------:|:---------------------------:
-![Antes](captchas/avião.png) |  ![Depois](processedCaptchas/avião.png)
+![Antes](BBB19/captchas/avião.png) |  ![Depois](BBB19/processedCaptchas/avião.png)
 
 Depois de realizar o processamento, cada imagem foi cortada a mão para conseguir o elemento da resposta correta e salvá-lo em [elementsCaptcha](elementsCaptcha) que funcionou como o dataset.
 
@@ -97,7 +97,7 @@ Os resultados dessa etapa podem ser vistos abaixo ou em [matchCaptcha](matchCapt
 
 Captcha                                 |  Elemento                               |  Match
 :--------------------------------------:|:---------------------------------------:|:--------------------------------:
-![captcha](processedCaptchas/avião.png) |  ![elemento](elementsCaptcha/avião.png) | ![match](matchCaptcha/avião.png)
+![captcha](BBB19/processedCaptchas/avião.png) |  ![elemento](BBB19/elementsCaptcha/avião.png) | ![match](BBB19/matchCaptcha/avião.png)
 
 Por fim, a função retorna a localização do elemento no captcha para o [script.py](script.py). Lá, o Selenium se encarrega de fazer o clique na posição certa da imagem.
 

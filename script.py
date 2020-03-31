@@ -4,15 +4,22 @@ import time
 from binascii import a2b_base64
 import processing
 
+loginUrl = "https://minhaconta.globo.com/"
+login = "bbbotvot@gmail.com"
+password = "botvot123"
+
 url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
 nameSearch = "Felipe"
 
 firefox = webdriver.Firefox()
+
+firefox.get(loginUrl)
+firefox.find_element_by_id('login').send_keys(login)
+firefox.find_element_by_id('password').send_keys(password)
+firefox.find_elements_by_css_selector('#login-form .button')[0].click()
+
+time.sleep(3)
 firefox.get(url)
-
-#singin = firefox.find_elements_by_class_name('barra-botao-entrar')[0].click()
-
-#time.sleep(30) # tempo fazer login
 
 print("iniciando o bot")
 while(1):
@@ -61,17 +68,14 @@ for _ in range(30):
 	while(1):
 		try:
 			# print("procurando o captcha")
-			captchaBox = firefox.find_elements_by_class_name('gc__2e8f-')
+			captchaBox = firefox.find_elements_by_class_name('gc__2Qtwp')
 			if captchaBox != []:
-				if len(captchaBox[0].text) > 5:
+				if len(captchaBox[0].text) > 2:
 					break
 		except:
 			pass
 
-	# imageSearchNameList = (captchaBox[0].text).split(' ')
-	# print(imageSearchNameList)
-
-	imageSearchName = captchaBox[0].text
+	imageSearchName = captchaBox[0].text.split('\n')[-1]
 	print("procurando por " + imageSearchName)
 
 	captcha = []
@@ -90,7 +94,7 @@ for _ in range(30):
 
 	filename = imageSearchName + '.png'
 
-	fd = open('captchas20/' + filename, 'wb')
+	fd = open('BBB20/captchas/' + filename, 'wb')
 	fd.write(binary_data)
 	fd.close()
 
