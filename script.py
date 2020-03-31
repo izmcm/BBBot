@@ -113,11 +113,13 @@ for _ in range(30):
 					if len(captchaBox[0].text) > 2:
 						break
 
-				vote_confirmation = browser.find_elements_by_class_name('_2uL8BLYO2wcSLbb32p6m8D')
-				
-				if (vote_confirmation != []):
+				vote_confirmation = browser.find_elements_by_class_name('_2UzeV58HztWLCSJ5W5H9Y4')
+
+				if next((x for x in vote_confirmation if 'Votar Novamente' in x.text), None):
 					vote_succeeded = True
 					break
+
+				time.sleep(1)
 			except:
 				pass
 
