@@ -91,64 +91,78 @@ for _ in range(30):
 	print(idxName)
 	print(element)
 	elementBtn = element[idxName]
-
-	print('elementBtn:', elementBtn)
-	
-	ac = ActionChains(browser)
-	ac.move_to_element(elementBtn).perform()
-	ac.click().perform()
+  
+	ac2 = ActionChains(browser)
+	ac2.move_to_element(elementBtn).click().perform()
 	time.sleep(3)
 
-	captchaBox = []
 	while(1):
-		try:
-			# print("procurando o captcha")
-			captchaBox = browser.find_elements_by_class_name('gc__2Qtwp')
-			if captchaBox != []:
-				if len(captchaBox[0].text) > 2:
+		ac = ActionChains(browser)
+		captchaBox = []
+
+		vote_succeeded = False
+
+		while(1):
+			try:
+				# print("procurando o captcha")
+				captchaBox = browser.find_elements_by_class_name('gc__2Qtwp')
+				if captchaBox != []:
+					if len(captchaBox[0].text) > 2:
+						break
+
+				vote_confirmation = browser.find_elements_by_class_name('_2uL8BLYO2wcSLbb32p6m8D')
+				
+				if (vote_confirmation != []):
+					vote_succeeded = True
 					break
-		except:
-			pass
+			except:
+				pass
 
-	imageSearchName = captchaBox[0].text.split('\n')[-1]
-	print("procurando por " + imageSearchName)
-
-	captcha = []
-	while(1):
-		try:
-			# print("procurando imagem")
-			captcha = browser.find_elements_by_class_name('gc__3_EfD')[0]
+		if vote_succeeded:
+			print('Voto com sucesso')
 			break
-		except:
-			pass
 
-	captchaSrc = captcha.get_attribute("src");
+		imageSearchName = captchaBox[0].text.split('\n')[-1]
+		print("procurando por " + imageSearchName)
 
-	data = captchaSrc.split(';base64,')[1]
-	binary_data = a2b_base64(data)
+		captcha = []
+		while(1):
+			try:
+				# print("procurando imagem")
+				captcha = browser.find_elements_by_class_name('gc__3_EfD')[0]
+				break
+			except:
+				pass
 
-	filename = imageSearchName + '.png'
+		captchaSrc = captcha.get_attribute("src");
 
-	fd = open('BBB20/captchas/' + filename, 'wb')
-	fd.write(binary_data)
-	fd.close()
+		data = captchaSrc.split(';base64,')[1]
+		binary_data = a2b_base64(data)
 
-	processing.processImage(filename)
-	points = processing.findInCaptcha(filename)
+		filename = imageSearchName + '.png'
 
-	if points != []:
-		print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
-		print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
+		fd = open('BBB20/captchas/' + filename, 'wb')
+		fd.write(binary_data)
+		fd.close()
 
-		posX = points[0] - captcha.size['width']/2
-		posY = points[1] - captcha.size['height']/2
+		processing.processImage(filename)
+		points = processing.findInCaptcha(filename)
 
-		ac.move_to_element(captcha).move_by_offset(posX, posY).click().perform()
-		time.sleep(10)
-	else:
-		print("erro - captcha não encontrado")
+		if points != []:
+			print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
+			print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
+
+			posX = points[0] - captcha.size['width']/2
+			posY = points[1] - captcha.size['height']/2
+
+			ac.move_to_element(captcha).move_by_offset(posX, posY).click().perform()
+			time.sleep(3)
+		else:
+			print("erro - captcha não encontrado")
+		
+		time.sleep(1)
 	
 	browser.refresh()
-	time.sleep(3)
+	time.sleep(1)
 
-# firefox.quit()
+# .quit()
