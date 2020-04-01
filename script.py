@@ -15,7 +15,7 @@ loginUrl = "https://minhaconta.globo.com/"
 # password = "botvot123"
 
 url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
-nameSearch = "Felipe"
+# nameSearch = "Felipe"
 
 browser = None
 try:
@@ -31,17 +31,17 @@ except:
 browser.get(loginUrl)
 
 time.sleep(10)
-print("starting login")
+print("fazendo o login")
 browser.find_element_by_id('login').send_keys(login)
 browser.find_element_by_id('password').send_keys(password)
 browser.find_elements_by_css_selector('#login-form .button')[0].click()
 
-print("finished login")
+print("login finalizado")
 
 time.sleep(5)
 browser.get(url)
 
-print("iniciando o bot")
+print("iniciando o bot de votações")
 while(1):
 	try:
 		# title = browser.find_elements_by_class_name('_1QJO-RxRXUUbq_pPU1oVZK')[0].text
@@ -65,16 +65,21 @@ namesAux = titleParts.split(', ')
 names = [namesAux[0].strip()]
 names = names + namesAux[1].split(' ou ')
 
+option = input("quem você quer eliminar?: \n 1. "+names[0]+"\n 2. "+names[1]+"\n 3. "+names[2]+"\ndigite o número da pessoa: ")
+while not option in ["1", "2", "3"]:
+	option = input("quem você quer eliminar?: \n 1. "+names[0]+"\n 2. "+names[1]+"\n 3. "+names[2]+"\ndigite o número da pessoa: ")
+
 ##### paredão duplo #####
 #namesAux = titleParts.split(' ou ')
 #names = [namesAux[0].strip(), namesAux[1]]
 
+nameSearch = names[int(option)-1]
 idxName = names.index(nameSearch)
 totalVotes = 0
 
 # for _ in range(100):
 while True:
-	print(nameSearch + " é o botao " + str(idxName))
+	# print(nameSearch + " é o botao " + str(idxName))
 
 	element = []
 	while(1):
@@ -90,8 +95,8 @@ while True:
 		except:
 			pass
 
-	print(idxName)
-	print(element)
+	# print(idxName)
+	# print(element)
 	elementBtn = element[idxName]
 
 	# scroll down
@@ -167,8 +172,8 @@ while True:
 		# print("6")
 
 		if points != []:
-			print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
-			print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
+			# print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
+			# print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
 
 			posX = points[0] - captcha.size['width']/2
 			posY = points[1] - captcha.size['height']/2

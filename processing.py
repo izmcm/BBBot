@@ -69,7 +69,7 @@ def findInCaptcha(filename):
 		bottom_right = (top_left[0] + w, top_left[1] + h)
 		cv2.rectangle(img,top_left, bottom_right, 0, 2)
 
-		print("salvando")
+		# print("salvando")
 		found = img[top_left[1]:top_left[1]+h, top_left[0]:top_left[0]+w]
 		cv2.imwrite('BBB20/matchCaptcha/' + filename, found)
 
