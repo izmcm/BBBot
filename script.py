@@ -4,11 +4,14 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 from binascii import a2b_base64
 import processing
+from getpass import getpass
 
 login = ""
 password = ""
 login = input("digite seu email:")
-password = input("digite sua senha:")
+print("digite sua senha:")
+# password = input("digite sua senha:")
+password = getpass()
 
 loginUrl = "https://minhaconta.globo.com/"
 # login = "bbbotvot@gmail.com"
@@ -100,7 +103,7 @@ while True:
 	elementBtn = element[idxName]
 
 	# scroll down
-	browser.execute_script("window.scrollTo(0, 600)") 
+	browser.execute_script("window.scrollTo(0, 700)") 
   
 	ac2 = ActionChains(browser)
 	ac2.move_to_element(elementBtn).click().perform()
