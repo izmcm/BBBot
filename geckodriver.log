@@ -13485,3 +13485,881 @@ action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
 action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
 JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
 Exiting due to channel error.
+1586036158736	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.dUwgO6MEsT83"
+1586036160345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586036160346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586036160346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586036160346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586036164155	Marionette	INFO	Listening on port 52111
+1586036164245	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 21929, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+1586036195800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.kHzYhmXUkXAD"
+1586036196698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586036196698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586036196698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586036196699	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586036199828	Marionette	INFO	Listening on port 52215
+1586036199905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1586036213084	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1586036681652	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.qA403VVJcTsu"
+1586036682638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586036682638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586036682639	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586036682639	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586036686006	Marionette	INFO	Listening on port 52399
+1586036686061	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1586036724088	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586036724346	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586036724358	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 22071, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1586036756809	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.ym05VX80GLOR"
+1586036757739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586036757740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586036757740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586036757740	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586036761653	Marionette	INFO	Listening on port 53348
+1586036761727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1586036827296	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.pocj9o2WMYq2"
+1586036828174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586036828174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586036828175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586036828175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586036831241	Marionette	INFO	Listening on port 53549
+1586036831300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1586041270578	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.1qqT8fBfoC6x"
+1586041271311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586041271311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586041271311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586041271311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586041273384	Marionette	INFO	Listening on port 53846
+1586041273426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1586041303309	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041303560	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041303568	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041306651	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041306904	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041307167	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041307171	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041311251	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041311510	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041311766	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041311769	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041320729	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041320983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041320989	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041324359	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041324622	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041324888	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041324891	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041328948	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041329200	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041329455	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041329459	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041334601	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041334867	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041335126	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041335130	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041363114	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041363381	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041363387	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041367512	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041367770	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041368032	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041368035	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041372101	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041372360	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041372614	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041372616	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041391221	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041391476	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041391481	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041394546	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041394794	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041395053	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041395055	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041399132	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041399399	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041399671	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041399676	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041407536	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041407787	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041407793	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041410883	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041411146	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041411397	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041411400	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041416490	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041416740	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041417010	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041417014	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041438785	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041439045	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041439054	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041443131	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041443395	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041443666	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041443670	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041447727	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041447993	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041448255	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041448258	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041453325	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041453584	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041453853	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041453856	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041461800	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041462063	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041462068	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041465769	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041466028	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041466303	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041466306	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041470413	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041470678	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041470929	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041470932	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041475018	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041475271	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041475530	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041475535	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041479641	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041479892	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041480144	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041480149	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041484239	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041484495	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041484752	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041484757	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041492603	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041492861	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041492868	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041495926	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041496182	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041496445	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041496449	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041500553	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041500814	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041501068	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041501074	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041543097	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041543350	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041543613	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041543618	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041548728	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041548992	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041549250	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041549254	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041554357	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041554621	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041554892	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041554898	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041558969	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041559224	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041559480	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041559483	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041563552	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041563816	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041564072	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041564075	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041568131	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041568384	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041568638	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041568640	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041572693	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041572949	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041573211	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041573214	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041581617	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041581883	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041581889	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041584941	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041585206	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041586081	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041586100	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041592250	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041592516	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041592775	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041592780	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041596850	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041597108	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041597376	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041597380	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041601446	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041601715	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041601983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041601987	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041611610	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041611867	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041611874	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041614985	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041615239	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041615493	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041615495	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041619578	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041619837	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041620098	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041620102	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041625223	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041625484	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041625737	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041625741	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041634360	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041634627	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041634635	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041637829	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041638095	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041638363	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041638366	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041642447	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041642710	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041642979	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041642983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041651232	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041651523	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041651527	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041654871	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041655130	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041655390	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041655413	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041659518	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041659783	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041660051	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041660055	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041664152	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041664413	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041664675	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041664678	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041668754	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041669004	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041669257	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041669260	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041673350	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041673598	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041673857	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041673862	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041678946	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041679199	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041679460	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041679463	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041687717	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041687989	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041687994	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041691887	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041692149	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041692418	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041692420	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041696526	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041696787	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041697054	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041697058	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041701129	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041701391	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041701655	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041701658	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041705723	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041705971	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041706236	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041706238	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041710296	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041710559	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041710823	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041710826	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041719094	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041719364	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041719369	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041722419	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041722677	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041722949	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041722952	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041727129	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041727384	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041727652	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041727658	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041732752	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041733004	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041733272	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041733276	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041737349	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041737613	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041737872	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041737876	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041746244	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041746511	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041746519	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041749624	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041749897	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041750155	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041750159	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041754273	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041754525	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041754784	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041754788	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041764103	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041764372	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041764379	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041767469	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041767726	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041767993	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041768002	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041774106	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041774369	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041774629	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041774633	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041782847	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041783102	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041783121	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041786191	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041787114	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041787364	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041787367	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041791470	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041791720	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041791976	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041791983	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041799122	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041799373	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041799633	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041799637	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041805736	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041805992	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041806242	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041806245	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041816439	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041816694	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041816699	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://tags.globo.com/utag/globo/gshow/prod/utag.js, line 110: TypeError: googletag.pubads is not a function
+1586041819761	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041820774	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041821039	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041821043	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041826123	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041826384	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041826641	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041826645	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041830743	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041831003	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041831258	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041831261	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041849657	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041849911	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041850173	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041850178	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041860136	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041860386	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1586041860391	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
