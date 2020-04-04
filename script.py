@@ -10,27 +10,25 @@ login = ""
 password = ""
 login = input("digite seu email:")
 print("digite sua senha:")
-# password = input("digite sua senha:")
+
 password = getpass()
 
 loginUrl = "https://minhaconta.globo.com/"
-# login = "bbbotvot@gmail.com"
-# password = "botvot123"
 
-url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
-# nameSearch = "Felipe"
+url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-gabi-ou-thelma-305135b8-b442-4cc8-888f-2a01ed79cc2d.ghtml"
+
 
 browser = None
 try:
 	caps = DesiredCapabilities().CHROME.copy()
 	caps["pageLoadStrategy"] = "eager"  #  interactive
 	browser = webdriver.Chrome(capabilities=caps)
-	# browser = webdriver.Chrome()
+	
 except:
 	caps = DesiredCapabilities().FIREFOX.copy()
 	caps["pageLoadStrategy"] = "eager"  #  interactive
 	browser = webdriver.Firefox(capabilities=caps)
-	# browser = webdriver.Firefox()
+	
 browser.get(loginUrl)
 
 time.sleep(10)
@@ -47,8 +45,6 @@ browser.get(url)
 print("iniciando o bot de votações")
 while(1):
 	try:
-		# title = browser.find_elements_by_class_name('_1QJO-RxRXUUbq_pPU1oVZK')[0].text
-		# title = browser.find_element_by_xpath('//*[@id="roulette-root"]/div/div[1]/div[3]/div/div/div')
 		title = browser.find_element_by_xpath('/html/body/div[2]/div[4]/div/div[1]/div[3]/div/div/div').text
 		
 		break
@@ -80,15 +76,10 @@ nameSearch = names[int(option)-1]
 idxName = names.index(nameSearch)
 totalVotes = 0
 
-# for _ in range(100):
 while True:
-	# print(nameSearch + " é o botao " + str(idxName))
-
 	element = []
 	while(1):
 		try:
-			#print("procurando nome")
-			# element = browser.find_elements_by_class_name('_1Y7EGDbQkmzYnNZcD4tztg')
 			element = [
 				browser.find_element_by_xpath('/html/body/div[2]/div[4]/div/div[1]/div[4]/div[1]'),
 				browser.find_element_by_xpath('/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]'),
@@ -98,8 +89,6 @@ while True:
 		except:
 			pass
 
-	# print(idxName)
-	# print(element)
 	elementBtn = element[idxName]
 
 	# scroll down
@@ -111,8 +100,8 @@ while True:
 
 	outSideLoop = True
 	innerLoop = True
+
 	while outSideLoop:
-		# print("1")
 		ac = ActionChains(browser)
 		captchaBox = []
 
@@ -120,13 +109,11 @@ while True:
 
 		while innerLoop:
 			try:
-				# print("procurando o captcha")
 				captchaBox = browser.find_elements_by_class_name('gc__2Qtwp')
 				if captchaBox != []:
 					if len(captchaBox[0].text) > 2:
 						break
 
-				# vote_confirmation = browser.find_elements_by_class_name('_2uL8BLYO2wcSLbb32p6m8D')
 				time.sleep(1)
 
 				value = browser.find_element_by_xpath('/html/body/div[2]/div[4]/div/div[3]/div/div/div[1]/div[2]/button')
@@ -143,21 +130,17 @@ while True:
 			print(totalVotes, 'votos com sucesso')
 			break
 		
-		# print("4")
 		imageSearchName = captchaBox[0].text.split('\n')[-1]
 		print("procurando por " + imageSearchName)
 
 		captcha = []
 		while(1):
 			try:
-				# print("procurando imagem")
 				captcha = browser.find_elements_by_class_name('gc__3_EfD')[0]
-				# print("5")
 				break
 			except:
 				pass
 
-		# print("6")
 		captchaSrc = captcha.get_attribute("src")
 
 		data = captchaSrc.split(';base64,')[1]
@@ -172,12 +155,8 @@ while True:
 		processing.processImage(filename)
 		points = processing.findInCaptcha(filename)
 		
-		# print("6")
 
 		if points != []:
-			# print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
-			# print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
-
 			posX = points[0] - captcha.size['width']/2
 			posY = points[1] - captcha.size['height']/2
 
@@ -190,5 +169,3 @@ while True:
 	
 	browser.refresh()
 	time.sleep(1)
-
-# .quit()
