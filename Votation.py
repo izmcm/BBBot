@@ -185,12 +185,11 @@ class Votation:
 		self.__browser.get(self.__paginaInicialGshow)
 
 		time.sleep(10)
-		elementBtn = self.__browser.find_element_by_xpath('/html/body/div[2]/main/div[3]/div/div/div/div/div[1]/div/a')
-		ac2 = ActionChains(self.__browser)
-		ac2.move_to_element(elementBtn).click().perform()
-		time.sleep(3)
+		element = self.__browser.find_elements_by_css_selector('.bstn-hl-link')[0]
+		link = element.get_attribute('href')
 		print("Paredão atual encontrado")
-		self.setUrl(self.__browser.current_url)
+		print(link)
+		self.setUrl(link)
 
 	def setUrl(self, url):
 		self.url = url
