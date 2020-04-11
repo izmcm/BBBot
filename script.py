@@ -14,7 +14,7 @@ password = getpass()
 
 loginUrl = "https://minhaconta.globo.com/"
 
-#url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
+#url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-flayslane-ou-thelma-3ade29ed-5052-41ef-8414-226cca50933a.ghtml"
 url = input("Copie e cole a URL do site da votação: ")
 
 browser = None
@@ -73,8 +73,8 @@ while not option in ["1", "2", "3"]:
 #namesAux = titleParts.split(' ou ')
 #names = [namesAux[0].strip(), namesAux[1]]
 
-nameSearch = names[int(option)-1]
-idxName = names.index(nameSearch)
+Flayslane = names[int(option)-1]
+idxName = names.index(Flayslane)
 totalVotes = 0
 
 # for _ in range(100):
