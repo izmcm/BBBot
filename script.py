@@ -14,7 +14,7 @@ password = getpass()
 
 loginUrl = "https://minhaconta.globo.com/"
 
-#url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml"
+#url = "https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-flayslane-ou-thelma-3ade29ed-5052-41ef-8414-226cca50933a.ghtml"
 url = input("Copie e cole a URL do site da votação: ")
 
 browser = None
@@ -47,7 +47,7 @@ while(1):
 		# title = browser.find_elements_by_class_name('_1QJO-RxRXUUbq_pPU1oVZK')[0].text
 		# title = browser.find_element_by_xpath('//*[@id="roulette-root"]/div/div[1]/div[3]/div/div/div')
 		title = browser.find_element_by_xpath('/html/body/div[2]/div[4]/div/div[1]/div[3]/div/div/div').text
-		
+
 		break
 	except:
 		pass
@@ -73,8 +73,8 @@ while not option in ["1", "2", "3"]:
 #namesAux = titleParts.split(' ou ')
 #names = [namesAux[0].strip(), namesAux[1]]
 
-nameSearch = names[int(option)-1]
-idxName = names.index(nameSearch)
+flayslane = names[int(option)-1]
+idxName = names.index(flayslane)
 totalVotes = 0
 
 # for _ in range(100):
@@ -100,8 +100,8 @@ while True:
 	elementBtn = element[idxName]
 
 	# scroll down
-	browser.execute_script("window.scrollTo(0, 700)") 
-  
+	browser.execute_script("window.scrollTo(0, 700)")
+
 	ac2 = ActionChains(browser)
 	ac2.move_to_element(elementBtn).click().perform()
 	time.sleep(3)
@@ -138,7 +138,7 @@ while True:
 			totalVotes += 1
 			print(totalVotes, 'votos com sucesso')
 			break
-		
+
 		imageSearchName = captchaBox[0].text.split('\n')[-1]
 		print("procurando por " + imageSearchName)
 
@@ -163,7 +163,7 @@ while True:
 
 		processing.processImage(filename)
 		points = processing.findInCaptcha(filename)
-		
+
 		if points != []:
 			# print("a imagem se encontra nos pontos: " + str(points[0]) + " X " + str(points[1]))
 			# print("o tamanho do captcha é " + str(captcha.size['width']) + " X " + str(captcha.size['height']))
@@ -175,9 +175,8 @@ while True:
 			time.sleep(3)
 		else:
 			print("erro - captcha não encontrado")
-		
+
 		time.sleep(1)
-	
+
 	browser.refresh()
 	time.sleep(1)
-
