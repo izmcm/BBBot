@@ -58,6 +58,7 @@ while(1):
 #print("title: " + title)
 
 titleParts = title.split('?')[1]
+titleParts = titleParts.replace(' ou ', ', ')
 
 #print(titleParts)
 
