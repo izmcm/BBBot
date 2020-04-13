@@ -28,6 +28,9 @@ except:
 	caps["pageLoadStrategy"] = "eager"  #  interactive
 	browser = webdriver.Firefox(capabilities=caps)
 	# browser = webdriver.Firefox()
+
+browser.set_window_position(0, 0)
+browser.set_window_size(400, 768)
 browser.get(loginUrl)
 
 time.sleep(10)
