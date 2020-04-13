@@ -38,8 +38,9 @@ browser.find_elements_by_css_selector('#login-form .button')[0].click()
 
 print("login finalizado...")
 
-time.sleep(5)
+time.sleep(10)
 browser.get(url)
+time.sleep(5)
 
 print("iniciando o bot")
 while(1):
@@ -52,18 +53,21 @@ while(1):
 	except:
 		pass
 
-print(title)
-
-time.sleep(5)
+#print("title: " + title)
 
 titleParts = title.split('?')[1]
 
-print(titleParts)
+#print(titleParts)
 
 ##### paredão triplo #####
-namesAux = titleParts.split(', ')
-names = [namesAux[0].strip()]
-names = names + namesAux[1].split(' ou ')
+namesHelp = titleParts.split(', ')
+print(namesHelp)
+
+names = []
+for name in namesHelp:
+    names.append(name.split(' ')[-1])
+    
+#print(names)
 
 option = input("Quem você quer eliminar?\n1. "+names[0]+"\n2. "+names[1]+"\n3. "+names[2]+"\nDigite o número correspondente: ")
 while not option in ["1", "2", "3"]:
