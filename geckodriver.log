@@ -15323,3 +15323,101 @@ Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
 Exiting due to channel error.
+1588013854244	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.65DkBFQzZqOK"
+1588013855065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588013855066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588013855066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588013855066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588013857092	Marionette	INFO	Listening on port 64232
+1588013857108	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1588013876503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588013903947	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588013904211	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588013904220	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2942, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1588013973389	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3s/pcbg4dkx03s3qt622fk5nw3c0000gn/T/rust_mozprofile.58odlijNRXmb"
+1588013973872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588013973872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588013973872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588013973872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588013975523	Marionette	INFO	Listening on port 65317
+1588013975533	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.indexOf is deprecated; use Array.prototype.indexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.lastIndexOf is deprecated; use Array.prototype.lastIndexOf instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.forEach is deprecated; use Array.prototype.forEach instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.every is deprecated; use Array.prototype.every instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.some is deprecated; use Array.prototype.some instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.filter is deprecated; use Array.prototype.filter instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.map is deprecated; use Array.prototype.map instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reduceRight is deprecated; use Array.prototype.reduceRight instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.concat is deprecated; use Array.prototype.concat instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.join is deprecated; use Array.prototype.join instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.pop is deprecated; use Array.prototype.pop instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.push is deprecated; use Array.prototype.push instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.reverse is deprecated; use Array.prototype.reverse instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.shift is deprecated; use Array.prototype.shift instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.sort is deprecated; use Array.prototype.sort instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.splice is deprecated; use Array.prototype.splice instead
+JavaScript warning: https://s.glbimg.com/pc/cf/javascripts/array.generics.js, line 494: Array.unshift is deprecated; use Array.prototype.unshift instead
+JavaScript error: https://tags.tiqcdn.com/utag/globo/globoid/prod/utag.3.js?utv=ut4.44.202002211844, line 25: TypeError: b.status_user is undefined
+1588013990520	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript error: https://s3.glbimg.com/v1/AUTH_da787d4f4e8d46e3ad76d5fa568fe786/profiling/profiling.min.js, line 8: TypeError: document.body is null
+1588014078857	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014079515	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014079530	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014085642	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014085900	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014086157	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014086161	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014095260	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014095524	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014095792	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1588014095797	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
