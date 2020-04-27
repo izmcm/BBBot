@@ -12,10 +12,6 @@ password = ""
 login = input("Abaixo precisaremos das suas credenciais do Globo.com.\nDigite seu email: ")
 password = getpass()
 
-loginUrl = "https://minhaconta.globo.com/"
-
-url = input("Copie e cole a URL do site da votação: ")
-
 browser = None
 try:
 	caps = DesiredCapabilities().CHROME.copy()
@@ -28,6 +24,7 @@ except:
 	browser = webdriver.Firefox(capabilities=caps)
 	# browser = webdriver.Firefox()
 
+loginUrl = "https://minhaconta.globo.com/"
 browser.set_window_position(0, 0)
 browser.set_window_size(400, 768)
 browser.get(loginUrl)
@@ -39,6 +36,8 @@ browser.find_element_by_id('password').send_keys(password)
 browser.find_elements_by_css_selector('#login-form .button')[0].click()
 
 print("login finalizado...")
+
+url = input("Copie e cole a URL do site da votação: ")
 
 time.sleep(10)
 browser.get(url)
@@ -55,19 +54,19 @@ while(1):
 	except:
 		pass
 
-#print("title: " + title)
+# print(title)
 
-titleParts = title.split('?')[1]
+# titleParts = title.split('?')[1]
 
 #print(titleParts)
 
 ##### paredão triplo #####
-namesHelp = titleParts.split(', ')
-print(namesHelp)
+# namesHelp = titleParts.split(', ')
+# print(namesHelp)
 
-names = []
-for name in namesHelp:
-	names.append(name.split(' ')[-1])
+# names = []
+# for name in namesHelp:
+# 	names.append(name.split(' ')[-1])
 	
 #print(names)
 
@@ -75,12 +74,12 @@ for name in namesHelp:
 #namesAux = titleParts.split(' ou ')
 #names = [namesAux[0].strip(), namesAux[1]]
 
-option = input("Quem você quer eliminar?\n1. "+names[0]+"\n2. "+names[1]+"\n3. "+names[2]+"\nDigite o número correspondente: ")
+option = input(title+"\n1, 2 ou 3\nDigite o número correspondente à ordem na tela: ")
 while not option in ["1", "2", "3"]:
-	option = input("Quem você quer eliminar?\n1. "+names[0]+"\n2. "+names[1]+"\n3. "+names[2]+"\nDigite o número correspondente: ")
+	option = input(title+"\n1, 2 ou 3\nDigite o número correspondente à ordem na tela: ")
 
-nameSearch = names[int(option)-1]
-idxName = names.index(nameSearch)
+# nameSearch = names[int(option)-1]
+idxName = int(option)-1
 totalVotes = 0
 
 while True:
@@ -159,7 +158,6 @@ while True:
 		fd.write(binary_data)
 		fd.close()
 
-		processing.processImage(filename)
 		points = processing.findInCaptcha(filename)
 		
 		if points != []:

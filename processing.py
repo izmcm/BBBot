@@ -32,12 +32,6 @@ def processImage(filename):
 
 	imgBorder = cv2.copyMakeBorder(img, 8, 8, 8, 8, cv2.BORDER_REPLICATE)
 
-	# ret, imgThreshold = cv2.threshold(imgBorder, 127, 255, cv2.THRESH_BINARY)
-	
-	# kernel = np.ones((1,2), np.uint8)
-	# imgDilate = cv2.dilate(imgThreshold, kernel, iterations = 1)
-	
-	# cv2.imwrite('processedCaptchas/' + filename, imgDilate)
 	cv2.imwrite('BBB20/processedCaptchas/' + filename, imgBorder)
 
 def findInCaptcha(filename):
