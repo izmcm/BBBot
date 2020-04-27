@@ -4,7 +4,7 @@ O BBBot faz parte de um estudo sobre segurança da informação e processamento 
 **Quer saber mais sobre?** Leia no Medium:
 [BBBot: Robôs podem votar no Big Brother?](https://medium.com/@izmcm/bbbot-rob%C3%B4s-podem-votar-no-big-brother-4b88a9f0176e)
 
-O projeto foi testado no MacOS 10.14.3 e no Ubuntu 18.04
+O projeto foi testado no MacOS e no Ubuntu (mas boatos que funciona no Windows também)
 
 ## Começando os trabalhos
 
